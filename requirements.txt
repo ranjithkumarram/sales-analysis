@@ -1,3 +1,7 @@
+# Requirements for Tech Store Sales Analysis and Superstore Dashboard
+# Created by: Ranjith kumar Ramasamy
+# Purpose: Education Purpose
+
 streamlit
 pandas
 numpy

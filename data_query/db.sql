@@ -1,58 +1,17 @@
-/*#Superstore Sales with Streamlit
-#© 2023 Tushar Aggarwal. All rights reserved. 
-#https://github.com/tushar2704/
-*/
+-- Tech Store Sales Database Schema
+-- Created by: Ranjith kumar Ramasamy
+-- Purpose: Education Purpose
 
-CREATE TABLE superstore(
-	Row_ID SERIAL,
-	Order_ID VARCHAR(35),
-	Order_Date DATE,
-	Ship_Date DATE,
-	Ship_Mode VARCHAR(35),
-	Customer_ID VARCHAR(35),
-	Customer_Name VARCHAR(50),
-	Segment VARCHAR(35),
-	Country VARCHAR(40),
-	City VARCHAR(40),
-	State VARCHAR(40),
-	Postal_Code NUMERIC,
-	Region VARCHAR(15),
-	Product_ID VARCHAR(40),
-	Category VARCHAR(50),
-	Sub_Category VARCHAR(50),
-	Product_Name VARCHAR(200),
-	Sales NUMERIC,
-	Quantity NUMERIC,
-	Discount NUMERIC,
-	Profit NUMERIC
-	)
---Adding csv
-COPY superstore 
-FROM 'D:\Superstore-Sales-with-Streamlit\src\data\superstore.csv'
-WITH (FORMAT CSV, HEADER);
+CREATE TABLE sales (
+  id SERIAL PRIMARY KEY,
+  order_id VARCHAR(50),
+  product VARCHAR(100),
+  quantity_ordered INT,
+  price_each DECIMAL(10,2),
+  order_date TIMESTAMP,
+  purchase_address TEXT,
+  order_city VARCHAR(100),
+  order_state VARCHAR(50)
+);
 
---Checking superstore
-SELECT *
-FROM superstore;
-
-/*#Superstore Sales with Streamlit
-#© 2023 Tushar Aggarwal. All rights reserved. 
-#https://github.com/tushar2704/
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- Insert sample data or use COPY for CSV import
