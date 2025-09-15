@@ -1,0 +1,14 @@
+# Requirements for Tech Store Sales Analysis and Superstore Dashboard
+# Created by: Ranjith kumar Ramasamy
+# Purpose: Education Purpose
+
+streamlit
+pandas
+numpy
+plotly
+plotly.express
+matplotlib==3.5.2
+requests
+openpyxl
+xlrd
+streamlit-option-menu
