@@ -1,4 +1,9 @@
 # Superstore Sales Dashboard with Streamlit
+
+**Created by:** Ranjith kumar Ramasamy
+
+**Purpose:** Education Purpose
+
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)
@@ -24,11 +29,8 @@ Superstore Sales with Streamlit is a data visualization and analysis project tha
 ## Deployment
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tushar2704-superstore-dashboard.streamlit.app/)
 
-
-
 ## Preview
 ![3dash](https://github.com/tushar2704/Superstore-Sales-Dashboard-with-Streamlit/assets/66141195/ca77655e-b101-44e9-b5e7-fcdbf5aae388)
-
 
 ## Dataset
 - Stored in cloud on personal <a href="https://www.linkedin.com/in/tusharaggarwalinseec/">![Supabase](https://img.shields.io/badge/Supabase-3FCF8E.svg?style=for-the-badge&logo=Supabase&logoColor=white)</a> on POSTGRSQL server
@@ -47,36 +49,29 @@ Superstore Sales with Streamlit is a data visualization and analysis project tha
 The project repository is organized as follows:
 
 ```
-
 ├── LICENSE
 ├── README.md           <- README .
 ├── notebooks           <- Folder containing the final reports/results of this project.
 │   │
-│   └── bank_german_customer_segmentation.py   <- Final notebook for the project.
+│   └── bank_german_customer_segmentation.py   <- Final notebook for the project.
 ├── reports            <- Folder containing the final reports/results of this project.
 │   │
-│   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
-│   
+│   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
+│   
 ├── src                <- Source for this project.
 │   │
-│   └── data           <- Datasets used and collected for this project.
+│   └── data           <- Datasets used and collected for this project.
 |   └── model          <- Model.
 ```
+
 ## License
 
 Due to the extensive time invested in code development and in consideration of privacy concerns, the source code for the application is currently not publicly accessible. Should anyone have an interest in obtaining access to the code, please do not hesitate to contact me directly. Your understanding is greatly appreciated. Thank you
 
 ## Author
-- <ins><b>©2023 Tushar Aggarwal. All rights reserved</b></ins>
-- <b>[LinkedIn](https://www.linkedin.com/in/tusharaggarwalinseec/)</b>
-- <b>[Medium](https://medium.com/@tushar_aggarwal)</b> 
-- <b>[Tushar-Aggarwal.com](https://www.tushar-aggarwal.com/)</b>
-- <b>[New Kaggle](https://www.kaggle.com/tagg27)</b> 
+- <ins><b>©2023 Ranjith kumar Ramasamy. All rights reserved</b></ins>
+- <b>[LinkedIn](https://www.linkedin.com/in/ranjithkumarramasamy)</b>
+- <b>[GitHub](https://github.com/ranjithkumarram)</b> 
 
 ## Contact me!
-If you have any questions, suggestions, or just want to say hello, you can reach out to us at [Tushar Aggarwal](mailto:info@tushar-aggarwal.com). We would love to hear from you!
-
-
-
-
-
+If you have any questions, suggestions, or just want to say hello, you can reach out to us at [Ranjith kumar Ramasamy](mailto:ranjith@example.com). We would love to hear from you!
