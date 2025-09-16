@@ -6,9 +6,8 @@ streamlit
 pandas
 numpy
 plotly
-plotly.express
-matplotlib==3.5.2
+# matplotlib not required by the Streamlit app; remove to avoid Python 3.11 incompatibilities
 requests
 openpyxl
-xlrd
+xlrd==1.2.0
 streamlit-option-menu
