@@ -24,16 +24,25 @@
 
 ## Overview
 
-Superstore Sales with Streamlit is a data visualization and analysis project that uses the Streamlit framework to create an interactive web application for exploring and analyzing sales data from a superstore. This project aims to provide an easy-to-use interface for users to gain insights into sales trends, Sales performance, product performance, Shippin analysis and Location analysis.
+Superstore Sales with Streamlit is a data visualization and analysis project that uses the Streamlit framework to create an interactive web application for exploring and analyzing sales data from a superstore. This project aims to provide an easy-to-use interface for users to gain insights into sales trends, sales performance, product performance, shipping analysis, and location analysis.
 
 ## Deployment
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tushar2704-superstore-dashboard.streamlit.app/)
+[![Run locally](https://img.shields.io/badge/Streamlit-Run_Locally-FF4B4B)](#)
+
+Run the app locally:
+
+- Ensure Python 3.9+ is installed
+- Install dependencies: `pip install -r requirements.txt`
+- Start the app: `streamlit run src/app.py`
+
+For cloud deployment (e.g., Streamlit Community Cloud, Render), set the entrypoint to `src/app.py` and include the `src/data/Superstore.csv` file.
 
 ## Preview
-![3dash](https://github.com/tushar2704/Superstore-Sales-Dashboard-with-Streamlit/assets/66141195/ca77655e-b101-44e9-b5e7-fcdbf5aae388)
+Dashboard screenshots can be generated after running locally.
 
 ## Dataset
-- Stored in cloud on personal <a href="https://www.linkedin.com/in/tusharaggarwalinseec/">![Supabase](https://img.shields.io/badge/Supabase-3FCF8E.svg?style=for-the-badge&logo=Supabase&logoColor=white)</a> on POSTGRSQL server
+- The dataset used by the app is included in the repository at `src/data/Superstore.csv`.
+- Original reference file is `src/data/superstore_original.xls`.
 
 ## Features
 
@@ -50,23 +59,27 @@ The project repository is organized as follows:
 
 ```
 ├── LICENSE
-├── README.md           <- README .
-├── notebooks           <- Folder containing the final reports/results of this project.
-│   │
-│   └── bank_german_customer_segmentation.py   <- Final notebook for the project.
-├── reports            <- Folder containing the final reports/results of this project.
-│   │
-│   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
-│   
-├── src                <- Source for this project.
-│   │
-│   └── data           <- Datasets used and collected for this project.
-|   └── model          <- Model.
+├── README.md
+├── requirements.txt
+├── Tech Store Sales Analysis.ipynb
+├── data_query/
+│   ├── db.sql
+│   └── superstore.csv
+├── reports/
+│   └── README.md
+└── src/
+    ├── app.py
+    ├── README.md
+    ├── images/
+    │   └── logo.png
+    └── data/
+        ├── Superstore.csv
+        └── superstore_original.xls
 ```
 
 ## License
 
-Due to the extensive time invested in code development and in consideration of privacy concerns, the source code for the application is currently not publicly accessible. Should anyone have an interest in obtaining access to the code, please do not hesitate to contact me directly. Your understanding is greatly appreciated. Thank you
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Author
 - <ins><b>©2023 Ranjith kumar Ramasamy. All rights reserved</b></ins>
